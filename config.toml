@@ -1,0 +1,32 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Living with the HopKos'
+
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= "false"
+uglyurls = "true"
+enableEmoji = true
+
+# Change the default theme to be use when building the site with Hugo
+theme = "hugo-theme-learn"
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[params]
+  # Author of the site, will be used in meta information
+  author = "Jeff Kopko jkopko@gmail.com"
+  # Description of the site, will be used in meta information
+  description = "Shortcuts to daily living with the HopKos"
+  # Shows a checkmark for visited pages on the menu
+  showVisitedLinks = false
+  # If set to true, prevents Hugo from including the mermaid module if not needed (will reduce load times and traffic)
+  disableMermaid = false
+  # Order sections in menu by "weight" or "title". Default to "weight"
+  ordersectionsby = "weight"
+  # Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = "blue"
+  # Javascript and CSS cache are automatically busted when new version of site is generated.
+  # Set this to true to disable this behavior (some proxies don't handle well this optimization)
+  disableAssetsBusting = false

@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://skiboyjcmu.github.io/HopKoWorld/'
 languageCode = 'en-us'
 title = 'Living with the HopKos'
 
@@ -30,3 +30,4 @@ home = [ "HTML", "RSS", "JSON"]
   # Javascript and CSS cache are automatically busted when new version of site is generated.
   # Set this to true to disable this behavior (some proxies don't handle well this optimization)
   disableAssetsBusting = false
+  landingPageURL = "https://skiboyjcmu.github.io/HopKoWorld/"
